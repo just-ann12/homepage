@@ -262,3 +262,31 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    font-size: 15px;
+}
+.feedback__form input {
+    padding: 7px;
+}
+
+.feedback__submit {
+    background-color: var(--border-color);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top:20px
+}
+
+.feedback_title{
+    margin-bottom: 20px;
+}
